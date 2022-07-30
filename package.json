@@ -1,0 +1,23 @@
+{
+  "name": "projeto-netuno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Home/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardo-consentine/projeto-netuno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardo-consentine/projeto-netuno/issues"
+  },
+  "homepage": "https://github.com/leonardo-consentine/projeto-netuno#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
