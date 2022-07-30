@@ -8,7 +8,6 @@
 	font-family: "noto sans" ;
 	padding-top: 20px;
 	display: flex;
-	
 }
 
 header {
@@ -16,7 +15,6 @@ header {
     display: flex;
 	padding: 12px 10px 5px 10px;
 }
-
 
 .caixa {
 	position: relative;
@@ -86,7 +84,7 @@ hr {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 20%;
 	border-radius: 10px;
 }
 
@@ -95,6 +93,7 @@ hr {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 25px;
+	width: 100%;
 }
 
 .cadastro h1 {
@@ -116,13 +115,13 @@ hr {
 	left: 860px;
 	top: 294px;
 	background: #FBFBFB;
-	
 	background-repeat: no-repeat;
 	background-size: 22px;
 	background-position: 5px center;
 	padding-left: 40px;
 	border: 1px solid #CECECE;
 	border-radius: 6px;
+	width: 90%;
 }
 
 .cadastro .nome {
@@ -137,17 +136,14 @@ hr {
 	background-image: url("./../Assets_Netuno/icones/state.png");
 }
 
-.cadastro select {
-	width: 260px;
-}
-
 .conhecimento {
 	font-family: 'Times New Roman', Times, serif;
     color: #fff;
     background-color: #1373af;
-    padding: 50px;
+    padding: 25px;
     height: 17vh;
     text-align: left;
+	width: 100%;
 }
 
 
@@ -169,6 +165,7 @@ hr {
 	border-bottom-right-radius: 10px;
 	background-color: #fff;
 	padding: 25px;
+	width: 100%;
 }
 
 .desenvolvimento h1 {
@@ -223,13 +220,11 @@ hr {
 	margin-bottom: 40px;
 }
 
-
 .caixa-projeto h1 {
 	margin: 0 0 18px 8px;
 	font-size: 30px;
 	color: #A4DCFF;
 	font-weight: bold;
-	
 }
 
 .caixa-projeto p {
@@ -295,7 +290,6 @@ hr {
     height: 100px;
 }
 
-
 .flex-caixa-problema h2 {
 	font-size: 20px;
 	font-weight: bold;
@@ -336,7 +330,6 @@ hr {
 	padding: 8vh 8vh 20vh 8vh;
 }
 
-
 .jornada-geral button {
 	display: flex;
 	background-color: #000;
@@ -348,13 +341,15 @@ hr {
 	align-items: center;
 	justify-content: center;
 	margin: 80px 0 22px 35%;
+}
 
+.jornada-geral button:hover {
+	background-color: #000000DF;
 }
 
 .jornada-geral button span {
 	color: #1A7FBD;
 	margin: 0 15px 0 5px;
-
 }
 
 .ul-jornada {
@@ -459,7 +454,6 @@ footer {
 	padding: 30px 130px 30px 150px;
 }
 
-
 .footer-logo {
 	padding: 0 0 0 43px;
 }
@@ -489,14 +483,8 @@ footer button {
 }
 
 footer button:hover {
-	border-radius: 10px;
-    font-weight: bold;
-    padding: 10px 15px;
-	width: 300px;
-	height: 100px;
-	position: relative;
+	background-color: #A4DCFF ;
 }
-
 
 .footer-pag a {
 	text-decoration: none;
