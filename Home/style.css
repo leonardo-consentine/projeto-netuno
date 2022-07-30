@@ -110,7 +110,31 @@ hr {
 }
 
 .cadastro input, select {
+	box-sizing: border-box;
 	margin: 10px;
+	height: 40px;
+	left: 860px;
+	top: 294px;
+	background: #FBFBFB;
+	
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-position: 5px center;
+	padding-left: 40px;
+	border: 1px solid #CECECE;
+	border-radius: 6px;
+}
+
+.cadastro .nome {
+	background-image: url("./../Assets_Netuno/icones/user.png");
+}
+
+.cadastro .email {
+	background-image: url("./../Assets_Netuno/icones/mail.png");
+}
+
+.cadastro .estados {
+	background-image: url("./../Assets_Netuno/icones/state.png");
 }
 
 .cadastro select {
@@ -119,13 +143,13 @@ hr {
 
 .conhecimento {
 	font-family: 'Times New Roman', Times, serif;
-	color:#fff;
-	background-color: #1A7FBD;
-	padding: 25px;
-	height: 17vh;
-	text-align: left;
-	
+    color: #fff;
+    background-color: #1373af;
+    padding: 50px;
+    height: 17vh;
+    text-align: left;
 }
+
 
 .conhecimento h1 {
 	padding: 0 0 20px 0 ;
